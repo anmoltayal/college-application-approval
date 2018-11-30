@@ -13,7 +13,7 @@ import java.sql.Statement;
 
 /**
  *
- * @author Anmol 
+ * @author Anmol Tayal
  */
 public class LoginDAO {
     String user;
@@ -32,15 +32,50 @@ public class LoginDAO {
         this.st=con.createStatement();
     }
    
-    public String checkInfo(String id,String password) throws SQLException
+    public String checkInfo(String id,String password,String user) throws SQLException
     {
+     // String ret=null;
+        if (user.equals("Student"))
+        {
          String query="Select * from students where id='"+id+"' and password ='"+password+"'";
         ResultSet rs=st.executeQuery(query);
         while(rs.next())
         {
-            return "Login successfull";
+            return "Student";
         }
-        return "invalid login details";
+        }
+        else if (user.equals("Admin"))
+        {
+         String query="Select * from admin where id='"+id+"' and password ='"+password+"'";
+        ResultSet rs=st.executeQuery(query);
+        while(rs.next())
+        {
+            return "Admin";
+        }
+        }
+        else if (user.equals("Teacher"))
+        {
+         String query="Select * from teacher where id='"+id+"' and password ='"+password+"'";
+        ResultSet rs=st.executeQuery(query);
+        while(rs.next())
+        {
+            return "Teacher";
+        }
+        }
+        else if (user.equals("hod"))
+        {
+         String query="Select * from hod where id='"+id+"' and password ='"+password+"'";
+        ResultSet rs=st.executeQuery(query);
+        while(rs.next())
+        {
+            return "hod";
+        }
+        }
+
+            return "invalid login details";
+        
+
     }
+    
     
 }

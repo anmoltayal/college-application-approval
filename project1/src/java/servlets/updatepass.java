@@ -19,25 +19,32 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Anmol Tayal
  */
-public class check extends HttpServlet {
-    public void doPost(HttpServletRequest req,HttpServletResponse res) throws IOException
-    {
-         res.setContentType("text/html;charset=UTF-8");
-        PrintWriter out = res.getWriter();
-        int id = Integer.parseInt(req.getParameter("id"));
-        String fname=req.getParameter("f_name");
-        String lname=req.getParameter("l_name");
-        String pass = req.getParameter("psw");
-        
-      RecordCheck rs = new RecordCheck();
-        try {
-            rs.insert(id, fname, lname, pass);
-        } catch (ClassNotFoundException ex) {
+public class updatepass extends HttpServlet {
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        response.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = response.getWriter();
+        String id=request.getParameter("id");
+        String npass = request.getParameter("newpass");
+        String cpass=request.getParameter("conpass");
+       
+        RecordCheck rs = new RecordCheck();
+        try{
+        if (npass.equals(cpass))
+        {
+            rs.updatePass(id,npass);
+             out.print("Done!");
+        }
+        else{
+            out.print("Passwords donot match!");
+        }
+        }
+         catch (ClassNotFoundException ex) {
             Logger.getLogger(check.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {
             Logger.getLogger(check.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
     }
 
 }

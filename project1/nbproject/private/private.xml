@@ -3,14 +3,32 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/nextpage.html</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/h_home.html</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/applicationview.jsp</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/forgotPassword.jsp</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/changepass.jsp</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/leave.html</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/addstudent.html</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/t_home.jsp</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/src/java/servlets/Login.java</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/src/java/servlets/leave.java</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/index.jsp</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/s_home.html</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/WEB-INF/web.xml</file>
             <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/src/java/servlets/LoginDAO.java</file>
             <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/src/java/servlets/check.java</file>
-            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/Signup.html</file>
-            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/src/java/servlets/Login.java</file>
-            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/index.html</file>
-            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/viewappn.jsp</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/addteacher.html</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/src/java/servlets/feedback.java</file>
             <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/src/java/servlets/RecordCheck.java</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/adminhome.html</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/password.jsp</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/request.html</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/src/java/servlets/updatepass.java</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/almostthere.jsp</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/Signup.html</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/WEB-INF/security.jsp</file>
+            <file>file:/C:/Users/Anmol%20Tayal/Documents/NetBeansProjects/project1/web/forgot.jsp</file>
         </group>
     </open-files>
 </project-private>

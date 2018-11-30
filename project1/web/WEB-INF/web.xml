@@ -4,13 +4,21 @@
         <servlet-name>Login</servlet-name>
         <servlet-class>servlets.Login</servlet-class>
     </servlet>
-        <servlet>
+    <servlet>
         <servlet-name>check</servlet-name>
         <servlet-class>servlets.check</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>LoginDAO</servlet-name>
         <servlet-class>servlets.LoginDAO</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>leave</servlet-name>
+        <servlet-class>servlets.leave</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>feedback</servlet-name>
+        <servlet-class>servlets.feedback</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>Login</servlet-name>
@@ -20,9 +28,17 @@
         <servlet-name>LoginDAO</servlet-name>
         <url-pattern>/LoginDAO</url-pattern>
     </servlet-mapping>
-        <servlet-mapping>
+    <servlet-mapping>
         <servlet-name>check</servlet-name>
         <url-pattern>/check</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>leave</servlet-name>
+        <url-pattern>/leave</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>feedback</servlet-name>
+        <url-pattern>/feedback</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
